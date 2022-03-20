@@ -1,0 +1,113 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex-block;
+  justify-content: center;
+  margin: auto;
+  width: 20%;
+}
+
+h4 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom:0;
+  background: white;
+  color: black;
+}
+
+.container{
+  border: 1px solid lightgrey;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  border-radius: 5;
+  }
+
+label[type=email] {
+    font-size: 65%;
+    text-align: center;
+    justify-content: center;
+}
+
+label[type=pwd] {
+    font-size: 65%;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 50%;
+}
+
+.forgot {
+    padding-left: 30%;
+    font-size: 60%;
+}
+
+button[type=submit] {
+    background-color: gold;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%; 
+    text-align: center;
+    font-size: 75%;
+}
+
+.help {
+    padding: 20px;
+    font-size: 75%; 
+}
+
+h6 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gray;
+}
+
+h6:before,
+h6:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h6:after {
+    margin: 0 0 0 20px;
+}
+
+.account {
+    background-color: rgb(235, 233, 233);
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 75%;
+}
+
+footer {
+  font-size: 100%;
+  padding: 6%;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #000; 
+  line-height: 30px;
+  margin: 50px 0 10px; 
+}
+
+p{
+  font-size: 82%;
+}
